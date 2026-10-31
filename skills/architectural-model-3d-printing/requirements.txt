@@ -1,0 +1,8 @@
+# Python 3.9+ (tested with Python 3.12, trimesh 5.1, manifold3d 3.5, shapely 2.1)
+numpy
+trimesh
+manifold3d>=3.0
+shapely>=2.0
+matplotlib   # optional: part/plate maps in lay_flat_and_pack.py
+# rhino_export_pieces.py runs inside Rhino 7/8 and needs nothing extra.
+# bambu_slice_estimate.py needs Bambu Studio installed (standard library only).
